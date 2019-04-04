@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'NJF_RepoLib_Example' do
+  pod 'NJF_RepoLib', :path => '../'
+
+  target 'NJF_RepoLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
