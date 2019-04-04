@@ -22,7 +22,7 @@ pod 'NJF_RepoLib'
 
 ## Author
 
-ios-ximen, niujf@kingnet.com
+Miko-J, niujf@kingnet.com
 
 ## License
 
