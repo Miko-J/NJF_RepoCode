@@ -1,0 +1,6 @@
+framework module NJF_RepoLib {
+  umbrella header "NJF_RepoLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

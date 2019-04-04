@@ -1,0 +1,22 @@
+{
+  "name": "NJF_RepoLib",
+  "version": "0.1.0",
+  "summary": "A short description of NJF_RepoLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ios-ximen/NJF_RepoLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ios-ximen": "niujf@kingnet.com"
+  },
+  "source": {
+    "git": "https://github.com/ios-ximen/NJF_RepoLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NJF_RepoLib/Classes/**/*"
+}
