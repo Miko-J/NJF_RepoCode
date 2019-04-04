@@ -41,9 +41,9 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 3.2.1'
 
   
-  s.subspec 'AFNTool' do |t|
-    t.source_files = 'NJF_RepoLib/Classes/AFNTool/**/*'
-    t.dependency 'AFNetworking', '~> 3.2.1'
+  s.subspec 'AFNTool' do |a|
+    a.source_files = 'NJF_RepoLib/Classes/AFNTool/**/*'
+    a.dependency 'AFNetworking', '~> 3.2.1'
 end
   s.subspec 'Category' do |c|
     c.source_files = 'NJF_RepoLib/Classes/Category/**/*'
