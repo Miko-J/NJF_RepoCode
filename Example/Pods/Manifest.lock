@@ -1,15 +1,42 @@
 PODS:
-  - NJF_RepoLib (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - NJF_RepoLib (0.0.1):
+    - NJF_RepoLib/Category (= 0.0.1)
+    - NJF_RepoLib/Configuration (= 0.0.1)
+    - NJF_RepoLib/ThirdLibs (= 0.0.1)
+  - NJF_RepoLib/Category (0.0.1)
+  - NJF_RepoLib/Configuration (0.0.1)
+  - NJF_RepoLib/ThirdLibs (0.0.1):
+    - AFNetworking (~> 3.2.1)
 
 DEPENDENCIES:
   - NJF_RepoLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   NJF_RepoLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NJF_RepoLib: 1f0e04ae0fc470d0097456c46ad3c9d5402b6da9
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  NJF_RepoLib: ab113f19a0ce353339b5cd7dc4daa416999bac9b
 
 PODFILE CHECKSUM: 1dae18234d985e423cc0ba5ec97001f545a7f67f
 
