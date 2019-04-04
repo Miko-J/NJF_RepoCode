@@ -14,14 +14,14 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - NJF_RepoLib (0.0.1):
-    - NJF_RepoLib/Category (= 0.0.1)
-    - NJF_RepoLib/Configuration (= 0.0.1)
-    - NJF_RepoLib/ThirdLibs (= 0.0.1)
-  - NJF_RepoLib/Category (0.0.1)
-  - NJF_RepoLib/Configuration (0.0.1)
-  - NJF_RepoLib/ThirdLibs (0.0.1):
+  - NJF_RepoLib (0.0.2):
+    - NJF_RepoLib/AFNTool (= 0.0.2)
+    - NJF_RepoLib/Category (= 0.0.2)
+    - NJF_RepoLib/Configuration (= 0.0.2)
+  - NJF_RepoLib/AFNTool (0.0.2):
     - AFNetworking (~> 3.2.1)
+  - NJF_RepoLib/Category (0.0.2)
+  - NJF_RepoLib/Configuration (0.0.2)
 
 DEPENDENCIES:
   - NJF_RepoLib (from `../`)
@@ -36,7 +36,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  NJF_RepoLib: ab113f19a0ce353339b5cd7dc4daa416999bac9b
+  NJF_RepoLib: a1821a096d93bff5675c93f6408b438d820827f7
 
 PODFILE CHECKSUM: 1dae18234d985e423cc0ba5ec97001f545a7f67f
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NJF_RepoLib'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of NJF_RepoLib.'
 
 # This description is used to generate tags and improve search results.
@@ -41,8 +41,8 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 3.2.1'
 
   
-  s.subspec 'ThirdLibs' do |t|
-    t.source_files = 'NJF_RepoLib/Classes/ThirdLibs/**/*'
+  s.subspec 'AFNTool' do |t|
+    t.source_files = 'NJF_RepoLib/Classes/AFNTool/**/*'
     t.dependency 'AFNetworking', '~> 3.2.1'
 end
   s.subspec 'Category' do |c|
